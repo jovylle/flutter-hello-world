@@ -1,9 +1,6 @@
 [build]
   publish = "build/web"
-  command = "./install_flutter.sh && flutter build web"
+  command = "flutter build web"
 
 [build.environment]
   PATH = "/opt/buildhome/flutter/bin:/usr/local/bin:/usr/bin:/bin"
-
-[[plugins]]
-  package = "@netlify/plugin-install-go"
